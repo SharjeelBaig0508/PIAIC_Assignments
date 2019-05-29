@@ -57,24 +57,36 @@ def grader(perc):
 		return "F"
 
 print("+" + "-" * 63 + "+")
+
 print("Student Name :", student_name)
+
 print("Father Name :", student_father)
+
 print("+" + "-" * 23 + "+" + "-" * 15 + "+" + "-" * 15 + "+" + "-" * 15 + "+")
+
 print("|Subject\t\t|Obtained Marks\t|Total Marks\t|Grade\t\t|")
+
 print("+" + "-" * 23 + "+" + "-" * 15 + "+" + "-" * 15 + "+" + "-" * 15 + "+")
+
 index = 0
+
 for subject, marks in subject_total_marks.items():
 	percent = (subject_obtained_marks[index] / marks) * 100
 	print("|" + subject, subject_obtained_marks[index], marks, grader(percent), sep = "\t|\t", end = "\t|\n")
 	index += 1
+
 print("+" + "-" * 23 + "+" + "-" * 15 + "+" + "-" * 15 + "+" + "-" * 15 + "+")
+
 print("Total Obtained Marks :", obtained_marks)
+
 percentage = (obtained_marks / total_marks) * 100
+
 if percentage >= 40:
 	print("Student Passed with", percentage,"%")
 else:
 	print("Student Failed with", percentage, "%")
 
 print("Grade :", grader(percentage))
+
 print("+" + "-" * 63 + "+")
 
