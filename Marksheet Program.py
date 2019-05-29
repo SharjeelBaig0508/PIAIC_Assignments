@@ -1,9 +1,9 @@
 # Made by SharjeelBaig0508
 # A Marksheet Program
 
-print("+" + "-" * 63 + "+")
-print("|\t\t\tMark Sheet Program\t\t\t|")
-print("+" + "-" * 63 + "+")
+print("+" + "-" * 71 + "+")
+print("|\t\t\t\tMark Sheet Program\t\t\t|")
+print("+" + "-" * 71 + "+")
 
 student_name = input("Enter Student's name >>> ")
 print()
@@ -11,7 +11,7 @@ print()
 student_father = input("Enter Student's Father's name >>> ")
 print()
 
-print("+" + "-" * 63 +"+")
+print("+" + "-" * 71 +"+")
 total_marks = 550
 
 subject_total_marks = { 
@@ -56,7 +56,7 @@ def grader(perc):
 	else:
 		return "F"
 
-print("+" + "-" * 63 + "+")
+print("+" + "-" * 71 + "+")
 
 print("Student Name :", student_name)
 
@@ -77,16 +77,18 @@ for subject, marks in subject_total_marks.items():
 
 print("+" + "-" * 23 + "+" + "-" * 15 + "+" + "-" * 15 + "+" + "-" * 15 + "+")
 
-print("Total Obtained Marks :", obtained_marks)
-
 percentage = (obtained_marks / total_marks) * 100
 
+print("|Total :\t", obtained_marks, total_marks, grader(percentage), sep = "\t|\t", end = "\t|\n")
+
+print("+" + "-" * 23 + "+" + "-" * 15 + "+" + "-" * 15 + "+" + "-" * 15 + "+")
+
 if percentage >= 40:
-	print("Student Passed with", percentage,"%")
+	print("Student Passed with", round(percentage, 2),"%")
 else:
-	print("Student Failed with", percentage, "%")
+	print("Student Failed with", round(percentage, 2), "%")
 
 print("Grade :", grader(percentage))
 
-print("+" + "-" * 63 + "+")
+print("+" + "-" * 71 + "+")
 
