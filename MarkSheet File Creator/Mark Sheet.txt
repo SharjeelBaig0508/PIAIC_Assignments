@@ -1,0 +1,20 @@
++-----------------------------------------------------------------------+
+Student Name : Mirza Mohammad Sharjeel Baig
+Father Name : Mohammad Shakeel Baig
++-----------------------+---------------+---------------+---------------+
+|Subject		|Obtained Marks	|Total Marks	|Grade		|
++-----------------------+---------------+---------------+---------------+
+|English Compulsory	|	60	|	75	|	A	|
+|Urdu Compulsory	|	54	|	75	|	B	|
+|Mathematics Comp.	|	73	|	75	|	A+	|
+|Physics Inter XI	|	70	|	75	|	A+	|
+|Chemistry Inter XI	|	68	|	75	|	A+	|
+|Computer Science	|	74	|	75	|	A+	|
+|Pakistan Studies	|	45	|	50	|	A+	|
+|Islamiat Studies	|	42	|	50	|	A	|
++-----------------------+---------------+---------------+---------------+
+|Total :		|	486	|	550	|	A	|
++-----------------------+---------------+---------------+---------------+
+Student Passed with 88.36 %
+Grade : A
++-----------------------------------------------------------------------+
